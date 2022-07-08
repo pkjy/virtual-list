@@ -1,4 +1,4 @@
-import { VirtualList } from './dist/lib.esm'
+import { VirtualList } from './dist/lib.esm.js'
 
 
 const data = [...new Array(1000000).keys()]
