@@ -1,0 +1,37 @@
+{
+  "name": "@pkjy/virtual-list",
+  "version": "0.0.1",
+  "description": "A mini javascript virtual list library",
+  "main": "./dist/lib.min.js",
+  "exports": {
+    "require": "./dist/lib.cjs.js",
+    "import": "./dist/lib.esm.js"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build:demo": "vite build",
+    "preview": "vite preview",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "vite": "^2.9.14"
+  },
+  "types":"./src/virtual-list.d.ts",
+  "keywords": [
+    "virtual-list"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:pkjy/virtual-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pkjy/virtual-list/issues"
+  },
+  "homepage": "https://github.com/pkjy/virtual-list#readme"
+}
