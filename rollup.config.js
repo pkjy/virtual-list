@@ -1,7 +1,7 @@
 import { terser  } from 'rollup-plugin-terser'
 
 export default {
-  input: 'src/scroll-list.js',
+  input: 'src/virtual-list.js',
   output: [
     { file: "./dist/lib.cjs.js", format: "cjs" },
     { file: "./dist/lib.esm.js", format: "esm" },
